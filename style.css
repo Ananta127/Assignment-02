@@ -200,3 +200,165 @@ li {
     justify-content: center;
     gap: 3%;
 }
+.frame27{
+    background-color: rgb(34, 34, 34);
+    width: 90rem;
+    height: 30rem;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.head{
+    font-size: 60px;
+    font-weight: 900;
+    width: 370px;
+}
+
+.frame27 .fc .pcolor{
+    width: 600px;
+    line-height: 1.5;
+}
+.line{
+    display: grid;
+    gap: 2rem;
+}
+.runimage{
+    border-radius: 20px;
+}
+.bmi{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 3cm;
+}
+.center{
+    padding-left: 30rem;
+}
+.center p{
+    width: 900px;
+    margin-bottom: 30px;
+}
+
+.frame28{
+    background-color: rgb(34, 34, 34);
+    height: 600px;
+    width: auto;
+}
+table, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 20px;
+}
+.head2{
+    font-size: 40px;
+}
+
+.psize{
+    width: 850px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.frame28{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input{
+    width: 25rem;
+    height: 3rem;
+    margin-top: 2%;
+    border-radius: 15px;
+    padding: 0 0.5rem;
+    font-size: 20px;
+}
+select{
+    width: 26.2rem;
+    height: 3.4rem;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.select1{
+    width: 52.8rem;
+    margin-top: 2%;
+}
+.head3{
+    font-size: 60px;
+}
+.meetourteam{
+    margin: 100px;
+}
+
+.frame46{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 80%;
+    height: 49rem;
+    margin: auto;
+    border-radius: 15px;
+}
+.frame46 img{
+    height: 350px;
+    width: 440px;
+    border-radius: 15px;
+    margin: 20px;
+    align-items: center;
+    filter: brightness(80%);
+}
+
+.imgrow1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgrow2{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.card{
+    position: relative;
+}
+
+.cardname{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-size: 28px;
+    font-weight: 800;
+}
+.carddesg{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+
+#footer{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 40rem;
+    width: auto;
+    margin-top: 100px;
+    padding-top: 50px;
+    display: flex;
+    /* align-items: center; */
+    justify-items: center;
+    justify-content: space-evenly;
+}
+.head4{
+    font-size: 100px;
+    color: rgb(230, 83, 60);
+    line-height:200px;
+}
+.footerdes{
+    width: 600px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.head5{
+    font-size: 40px;
+    line-height: 130px;
+}
+.footerpoints{
+    font-size: 30px;
+    line-height: 65px;
+}
