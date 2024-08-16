@@ -44,6 +44,10 @@ li {
     line-height: normal;
 }
 
+.pcolor{
+    color: rgba(255, 255, 255, 0.5);
+}
+
 /* navbar */
 .navbar {
     display: flex;
@@ -74,6 +78,7 @@ li {
 .shape {
     font-size: 7rem;
     font-weight: 900;
+    line-height:100%
 }
 
 .bannerbtn{
@@ -114,3 +119,84 @@ li {
     height: 50rem;
 }
 
+.box{
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: rgba(255, 255, 255, 0.1);
+    width: 260px;
+    height: 120px;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
+
+.box1size{
+    font-size: 50px;
+    font-weight:900;
+}
+
+.box1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -600px;
+    left: 300px;
+}
+.box2size{
+    font-size: 32px;
+    font-weight:900;
+}
+.circle{
+    background-color: rgb(230, 83, 60);
+    width: 50px;
+    height: 50px;
+    border-radius:50px;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    top: -330px;
+    left: -150px;
+}
+.frame8{
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+}
+
+.frame8 p{
+    text-align: center;
+    width: 60rem;
+}
+
+.frame8 h3{
+    font-size: 70px;
+}
+
+.roundimg{
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+}
+.frame25{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+.images{
+    display: grid;
+    justify-items: center;
+}
+
+.images p{
+    width: 20rem;
+    text-align: center;
+}
+
+.frame21{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
