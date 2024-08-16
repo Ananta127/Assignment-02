@@ -85,6 +85,9 @@ li {
     display: flex;
     gap: 2rem;
 }
+.bannertext{
+    padding-top: 150px;
+}
 
 .join{
     background-color: rgb(230, 83, 60);
@@ -112,7 +115,6 @@ li {
 }
 .banner-section{
     display: flex;
-    align-items: center;
     justify-content: space-around;
 }
 .images2{
@@ -339,8 +341,10 @@ select{
     width: auto;
     margin-top: 100px;
     padding-top: 50px;
+    
+}
+#footer .footer{
     display: flex;
-    /* align-items: center; */
     justify-items: center;
     justify-content: space-evenly;
 }
@@ -361,4 +365,16 @@ select{
 .footerpoints{
     font-size: 30px;
     line-height: 65px;
+}
+.footerline{
+    height: 1px;
+    width: 78%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: auto;
+    margin-top: 90px;
+}
+.copyright{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
 }
